@@ -1,4 +1,4 @@
 # html-css-landing-page
 This is my first Git Repository.
 <br>
-My first project(Home Page) in HTML and CSS.
+My first project(landing page) in HTML and CSS.
