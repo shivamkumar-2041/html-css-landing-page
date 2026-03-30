@@ -1,0 +1,93 @@
+/* styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #0f1111;
+    background-color: #e8f5e9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    cursor: default;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 85px 12px 10px;
+}
+
+/* Heading style */
+.heading-text {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+/* English and Hindi text */
+.text {
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.text-english {
+    font-size: 20.64px;
+    margin-bottom: 30.8px;
+}
+
+.text-hindi {
+    font-size: 19.4px;
+    margin-bottom: 58.4px;
+}
+
+/* explore + add shop btn */
+.btn-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.explore-btn {
+    color: white;
+    background-color: #2e7d32;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 9px 18px;
+}
+
+.explore-btn:hover {
+    background-color: #1b5e20;
+}
+
+.add-shop-btn {
+    color: #1976d2;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: 2px solid #1976d2;
+}
+
+.add-shop-btn:hover {
+    color: white;
+    background-color: #1976d2;
+}
+
+/* browser blue highlight control */
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
